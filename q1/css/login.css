@@ -1,0 +1,93 @@
+*{
+    font-family: sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    outline: none;
+    border: none;
+    text-decoration: none;
+    text-transform: capitalize;
+    transition: all .2s linear;
+}
+
+
+.container1{
+    padding: 25px 10px;
+    text-align: center;
+    
+}
+
+.container1 .heading{
+    font-size: 30px;
+    padding-bottom: 25px;
+}
+
+.container1 .searchbox{
+    width: 310px;
+    height: 20px;
+    border: 2px solid #000;
+    padding: 18px 15px;
+    font-size: 20px;
+
+
+}
+
+.container1 .image-container1{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 20px;
+    padding-top: 50px;
+}
+
+.container1 .image-container1 .image{
+    padding: 15px;
+    background-color: #fff;
+    box-shadow: 0 5px 10px rgba(0,0,0,0.1);
+    border: 2px solid #e74c3c ;
+    width: 350px;
+    border-radius: 5px;
+    animation: fadeIn .2s linear;
+}
+
+@keyframes fadeIn{
+    0%{
+        transform: scale(.5) translateY(-10px);
+        opacity: 0;
+    }
+}
+
+
+ .buttons .btn a {
+    display: flex;
+    gap: 1.5rem;
+    flex-wrap: wrap;
+    margin-top: 1rem;
+    text-align: center;
+}
+
+.buttons .btn{
+    flex: 1 1 16rem;
+    padding: 1rem;
+    font-size: 1.8rem;
+    color: #444;
+    border: .1rem solid #444;
+    
+}
+
+.container1 .image-container1 .buttons a.btn {
+    background: #444;
+    color: #fff;
+}
+
+
+.container1 .image-container1 .buttons a.btn:hover {
+    background: #111;
+    color: #fff;
+}
+
+.container1 .image-container1  .searchbox:hover {
+    transform: scale(1.05);
+}
+
+

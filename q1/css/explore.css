@@ -1,0 +1,40 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}    
+
+.card{
+    box-shadow: 0 4px 8px rgba(0,0,0,0.2);
+    transition: 0.3s;
+    width: 100%;
+    display: grid;
+    grid-template-columns: repeat(auto-fit,minmax(30rem,1fr));
+    gap: 2rem;
+}
+.card:hover{
+    box-shadow: 0 12px 24px rgba(0,0,0,0.2);
+}
+
+.container{
+    padding: px 16px;
+    text-align: center;
+}
+
+body{
+    font-family:sans-serif ;
+}
+
+.portfolio-container .card {
+    height: 500px;
+    width: 350px;
+    overflow: hidden;
+    border: 15px solid #fff;
+    box-shadow:  0 3px 5px rgba(0,0,0,.3);
+    margin: 20px;
+}
+.portfolio-container .card img{
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+}
